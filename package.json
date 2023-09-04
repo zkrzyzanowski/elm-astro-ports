@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.0.8"
+    "astro": "^3.0.8",
+    "astro-integration-elm": "0.0.9",
+    "elm": "0.19.1-5",
+    "elm-format": "0.8.7"
   }
 }
