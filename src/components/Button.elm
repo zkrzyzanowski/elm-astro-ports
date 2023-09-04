@@ -25,11 +25,11 @@ type Msg
     = ButtonClicked String
 
 
-update : Msg -> model -> ( model, Cmd Msg )
-update msg model =
+update : Msg -> () -> ( (), Cmd Msg )
+update msg _ =
     case msg of
         ButtonClicked text ->
-            ( model, sendAlert text )
+            ( (), sendAlert text )
 
 
 subscriptions : model -> Sub msg
